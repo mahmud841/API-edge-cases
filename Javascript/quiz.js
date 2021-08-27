@@ -14,13 +14,13 @@ console.log(bondCode);
  */
 
 
-function async loadData(){
+// function async loadData(){
 
     const res = await fetch(url);
      const data = await res.json();
       console.log(data);
     
-    }
+    // }
     loadData();
     
     
